@@ -29,7 +29,11 @@ def load_main_menu():
     btn.grid(column=2, row=0)
 
     open_window_btn = Button(root, text="N17HTD", command=open_plane_menu)
+    open_window_btn_2 = Button(root, text="N31W17", command=open_plane_menu)
+
     open_window_btn.grid(column=0, row=1)
+    open_window_btn_2.grid(column=0, row=2)
+
 
 #im going to CRYYY
 def open_options_window():
